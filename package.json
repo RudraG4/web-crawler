@@ -1,0 +1,34 @@
+{
+  "name": "web-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest",
+    "build": "echo This is a static template, there is no bundler or bundling involved!"
+  },
+  "bin": {
+    "crawl": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesandbox-app/static-template.git"
+  },
+  "keywords": [],
+  "author": "Ives van Hoorne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codesandbox-app/static-template/issues"
+  },
+  "homepage": "https://github.com/codesandbox-app/static-template#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "jsdom": "^21.1.0",
+    "nodemon": "^2.0.20",
+    "yargs": "^17.6.2"
+  },
+  "devDependencies": {
+    "jest": "^29.4.1"
+  }
+}
