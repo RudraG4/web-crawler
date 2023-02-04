@@ -12,7 +12,7 @@ This is a Node.js project.
 ## Installation
 
 ```
-npm install -g webcrawler
+npm i website-crawler-cli
 ```
 
 Or from source:
@@ -21,4 +21,10 @@ Or from source:
 git clone git://github.com/RudraG4/web-crawler.git 
 cd web-crawler
 npm install -g 
+```
+
+## Usage
+
+```
+crawl -w https://axios-http.com
 ```
