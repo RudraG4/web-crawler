@@ -13,7 +13,6 @@ const run = async () => {
     demandOption: true,
   }).argv;
 
-  // console.log(options);
   if (!options.website) {
     return;
   }

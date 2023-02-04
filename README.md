@@ -1,15 +1,9 @@
-# Node.js template
+# WEB-CRAWLER
 
 This is a Node.js project.
 
-Add your [configuration](https://codesandbox.io/docs/projects/learn/setting-up/tasks) to optimize it for [CodeSandbox](https://codesandbox.io/p/dashboard).
-
-## Resources
-
-- [CodeSandbox Projects — Docs](https://codesandbox.io/docs/projects)
-- [CodeSandbox — Discord](https://discord.gg/Ggarp3pX5H)# Node.js template
-
 
 ## Dependencies
--   [Jest]() - Testing framework
--   [jsdom](https://www.npmjs.com/package/jsdom) - 
+-   [Jest](https://jestjs.io) - Jest is a JavaScript testing framework designed to ensure correctness of any JavaScript codebase
+-   [JSDOM](https://github.com/jsdom/jsdom) - JSDOM is a library which parses and interacts with assembled HTML just like a browser
+-   [Axios](https://axios-http.com/) - Promise based HTTP client for the browser and node.js.

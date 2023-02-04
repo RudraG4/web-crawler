@@ -5,7 +5,7 @@ const error = (message) => {
 };
 
 const info = (message) => {
-  console.log(`${chalk.green("[INFO] ")} ${message}`);
+  console.log(chalk.green(`[INFO] ${message}`));
 };
 
 const report = (message) => {

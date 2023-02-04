@@ -1,5 +1,6 @@
 const { JSDOM } = require("jsdom");
 const logger = require("./log");
+const axios = require("axios");
 
 const getUrlsFromHTML = (htmlbody, baseURL) => {
   const urls = [];
@@ -50,7 +51,7 @@ const crawl = async (baseURL, currentURL, pages) => {
   logger.info(`Crawling: ${currentURL}`);
 
   try {
-    const resp = await fetch(currentURL);
+    const resp = await axios(currentURL);
     if (resp.status > 399) {
       logger.error(
         `Couldn't fetch ${currentURL} due to status code: ${resp.status}`
@@ -64,7 +65,7 @@ const crawl = async (baseURL, currentURL, pages) => {
       );
       return pages;
     }
-    const htmlBody = await resp.text();
+    const htmlBody = await resp.data;
     const nextURLs = getUrlsFromHTML(htmlBody, baseURL);
 
     for (const nextURL of nextURLs) {
