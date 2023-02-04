@@ -1,6 +1,6 @@
 # WEB-CRAWLER
 
-This is a Node.js project.
+A Node based CLI to crawl websites
 
 
 ## Dependencies
@@ -12,13 +12,11 @@ This is a Node.js project.
 ## Installation
 
 ```
-npm install -g webcrawler
+npm i website-crawler-cli
 ```
 
-Or from source:
+## Usage
 
 ```
-git clone git://github.com/RudraG4/web-crawler.git 
-cd web-crawler
-npm install -g 
+crawl -w https://axios-http.com
 ```
